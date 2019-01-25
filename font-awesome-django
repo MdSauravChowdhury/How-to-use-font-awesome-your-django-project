@@ -1,0 +1,15 @@
+first time: install pip install django-fontawesome
+
+Second time ADD : INSTALLED_APPS = (
+    'fontawesome',
+)
+
+Thard Time: Use import django models #
+
+from fontawesome.fields import IconField
+
+Fourth time : Check the condistions ::
+
+{% if post.icon %}
+		{{ post.icon.as_html }}# use to font-awesome section
+{% endif %}
